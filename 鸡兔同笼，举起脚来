@@ -1,0 +1,15 @@
+#鸡兔同笼
+while True:
+    head = int(input('head'))
+    foot = int(input('foot'))
+    tu = (foot-head-head)/2
+    ji = head - tu
+    if tu >= 0 and ji>=0:
+        print('ji:',ji,'tu:',tu)
+    else:
+        print('error')
+    answer = input('Continuer?')
+    if answer == 'n':
+        print('BeBye!')
+        break
+               
